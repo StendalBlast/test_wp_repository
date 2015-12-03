@@ -1,0 +1,190 @@
+.about-wrapper {
+  padding-bottom: 96px;
+  padding-top: 20px; }
+
+#about-container {
+  padding-right: 0;
+  padding-left: 0;
+  padding-top: 20px; }
+  @media only screen and (max-width: 767px) {
+    #about-container {
+      padding-left: 15px;
+      padding-right: 15px; } }
+
+.about-row1 h1 {
+  font: bold 24px/24px 'PT Sans',sans-serif;
+  color: #1b1b1b;
+  text-transform: uppercase;
+  margin: 16px 0 12px 0; }
+
+.about-row2 {
+  min-height: 1px;
+  line-height: 20px;
+  padding-top: 40px; }
+  .about-row2 h2 {
+    font: bold 24px/24px 'PT Sans',sans-serif;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    margin-bottom: 53px;
+    margin-top: 10px; }
+  .about-row2 h6 {
+    font: normal 15px/20px 'PT Sans',sans-serif;
+    color: #e48200;
+    display: block;
+    font-style: normal;
+    margin: 0;
+    line-height: 20px; }
+  .about-row2 #about-col8 h6 {
+    margin-bottom: 21px; }
+  .about-row2 p {
+    margin: 0 0 20px 0;
+    font-family: PT Sans, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #1b1b1b; }
+
+@media only screen and (min-width: 1200px) {
+  #about-col4 {
+    width: 370px; } }
+@media only screen and (min-width: 979px) and (max-width: 1199px) {
+  #about-col4 {
+    width: 300px; } }
+@media only screen and (min-width: 768px) and (max-width: 978px) {
+  #about-col4 {
+    width: 228px; } }
+
+#about-col8 {
+  margin-left: 30px; }
+  @media only screen and (min-width: 1200px) {
+    #about-col8 {
+      width: 770px; } }
+  @media only screen and (min-width: 979px) and (max-width: 1199px) {
+    #about-col8 {
+      width: 620px; } }
+  @media only screen and (min-width: 768px) and (max-width: 978px) {
+    #about-col8 {
+      width: 476px; } }
+  @media only screen and (max-width: 767px) {
+    #about-col8 {
+      margin-right: 0;
+      margin-left: 0; } }
+
+#about-col4, #about-col8 {
+  padding-right: 0;
+  padding-left: 0;
+  line-height: 20px;
+  font-weight: normal;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 13px; }
+
+.dropcap {
+  background: #e48200;
+  width: 51px;
+  height: 51px;
+  overflow: hidden;
+  margin: 3px 19px 0 0;
+  border-radius: 4px;
+  line-height: 48px;
+  font-size: 36px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  display: block;
+  float: left; }
+
+.clearfix {
+  clear: both; }
+
+#about-container hr {
+  clear: both;
+  background: #d1d1d1;
+  height: 1px;
+  overflow: hidden;
+  margin: 45px 0 56px 0;
+  padding: 0;
+  line-height: 0;
+  font-size: 0; }
+
+.about-row3 {
+  min-height: 1px; }
+  .about-row3 h2 {
+    font: bold 24px/24px 'PT Sans',sans-serif;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    margin-bottom: 53px;
+    margin-top: 10px; }
+
+.testimonials-item {
+  margin: 0 0 28px 0;
+  padding: 0;
+  overflow: hidden;
+  background: none; }
+  .testimonials-item blockquote {
+    background: #f7f6f7;
+    padding: 20px 30px 25px 30px;
+    border: 1px solid #dbdbdb;
+    font-family: PT Sans, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #1b1b1b;
+    position: relative;
+    display: block;
+    margin: 0;
+    border-radius: 10px; }
+  .testimonials-item blockquote a {
+    position: relative;
+    z-index: 2;
+    vertical-align: top; }
+  .testimonials-item .testimonials-meta {
+    padding: 15px 0 0 0;
+    line-height: 18px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: right;
+    color: #e48200;
+    display: block; }
+
+#our-team-photo {
+  background: #f3f3f3;
+  padding: 15px;
+  margin-right: 19px;
+  margin-bottom: 30px;
+  max-width: 237px; }
+  @media (min-width: 1200px) {
+    #our-team-photo {
+      width: 31.623931623931625%; } }
+  @media only screen and (min-width: 979px) and (max-width: 1199px) {
+    #our-team-photo {
+      width: 30%;
+      margin-right: 13px; } }
+  @media only screen and (min-width: 768px) and (max-width: 978px) {
+    #our-team-photo {
+      width: 30%;
+      margin-right: 13px; } }
+  @media only screen and (max-width: 767px) {
+    #our-team-photo {
+      width: 100%;
+      max-width: 100%;
+      float: none;
+      margin-right: 0;
+      overflow: hidden; } }
+  #our-team-photo h5 {
+    margin: 0 0 1px 0;
+    font: normal 15px/20px 'PT Sans',sans-serif;
+    color: #e48200;
+    line-height: 20px; }
+    #our-team-photo h5 a {
+      color: #e48200;
+      line-height: 20px; }
+  #our-team-photo p {
+    margin-bottom: 0; }
+  #our-team-photo figure {
+    max-width: 207px;
+    margin-bottom: 11px; }
+    #our-team-photo figure img {
+      width: 100%; }
+
+/*# sourceMappingURL=about.css.map */

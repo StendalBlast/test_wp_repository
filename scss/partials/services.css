@@ -1,0 +1,32 @@
+.services-wrapper {
+  margin: 0;
+  /*padding: 20px 0 96px 0;*/ }
+  @media (max-width: 979px) and (min-width: 768px) {
+    .services-wrapper {
+      padding-left: 15px;
+      padding-right: 15px; } }
+  @media only screen and (max-width: 767px) {
+    .services-wrapper {
+      padding-left: 15px;
+      padding-right: 15px; } }
+
+#services-container {
+  padding: 0; }
+
+.services-row1 {
+  padding-bottom: 40px; }
+  .services-row1 h1 {
+    font: bold 24px/24px 'PT Sans',sans-serif;
+    color: #1b1b1b;
+    text-transform: uppercase; }
+
+.portfolio-item h3 a {
+  text-decoration: none;
+  color: #e48200;
+  margin: 0;
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: none; }
+
+/*# sourceMappingURL=services.css.map */

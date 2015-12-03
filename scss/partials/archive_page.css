@@ -1,0 +1,10 @@
+#archives-latest-section, #archive-month, #archive-subject {
+  padding-left: 0; }
+
+#bylast, #bymonth, #bycategories {
+  padding-left: 0; }
+
+.widget-title {
+  text-transform: uppercase; }
+
+/*# sourceMappingURL=archive_page.css.map */

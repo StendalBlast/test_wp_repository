@@ -1,0 +1,173 @@
+// variables
+$color1: #222;
+$color2: #efefef;
+$color3: #fba919;
+
+$color4: #1b1b1b;//dark-grey
+$color5: #e48200;//orange
+
+// default styling
+body {
+	/*background: $color3;
+	color: $color2;*/
+	font-family: 'PT Sans', sans-serif;
+	border-top: 8px solid /*#1b1b1b*/$color5;
+	@media (max-width: 767px) {
+	margin: auto;
+}
+}
+
+body.custom-background {
+	background-image: url(../images/body.png);
+    background-repeat: repeat;
+    background-position: top center;
+    background-attachment: scroll;
+	/*background-position: center;
+	background-repeat: no-repeat;
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background-size: cover;*/
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: $color4;
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+		color: $color5;
+	}
+}
+
+h1 a {
+	color: $color4;
+
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+input, textarea {
+	/*border: 1px solid $color1;
+	background: $color2;
+	padding: 0.3em 0.4em;
+	box-shadow: inset -1px -1px 6px $color1;
+	border-color: #DDD;*/
+}
+
+.site {
+	overflow: hidden;
+	/*background: rgba($color1, 0.85);*/
+	@include outer-container;
+}
+
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+	max-width: 100%;
+	height: auto;
+}
+
+.breadcrumbs {
+		padding-left: 0;
+		background-color: #f8f7f7;
+    	padding: 12px 16px 13px 16px;
+    	font-size: 15px;
+		li {
+			display: inline;
+			line-height: 20px;
+    		font-size: 15px;
+    		color: $color4;
+	}
+			.current {
+				color: $color5;
+				font-weight: normal;
+			}
+}
+
+#reply-title {
+	margin: 50px 10px 50px 0;
+	font: bold 24px/24px 'PT Sans',sans-serif;
+    color: $color4;
+    text-transform: uppercase;
+}
+.comment-form-comment label {
+	/*display: block;
+	margin: 0 0 10px 0;
+	padding: 10px 12px;
+	background-color: #f5f5f5;
+	width: 288px;box-shadow: none;
+    resize: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #1b1b1b;*/ 
+}
+
+#author, #email, #url{
+	border: none;
+	margin-left: 0;
+	padding: 10px 12px;
+	background-color: #f5f5f5;
+	width: 288px;
+
+}
+
+.comment-notes, .comment-form-author label, .comment-form-email label, .comment-form-url label, .comment-form-comment label {
+	display: none;
+}
+
+.comment-form-author input,
+.comment-form-email input,
+.comment-form-url input {
+	font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: $color4; 
+}
+
+.logged-in-as {
+	margin-left: 0;
+	padding: 10px 12px;
+	background-color: #f5f5f5;
+	width: 288px;
+	box-shadow: none;
+    resize: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: $color4; 
+}
+
+#comments {
+	border-top: 1px solid #d1d1d1;
+}
+
+#comment {
+	background: #f5f5f5;
+	padding: 10px 12px;
+    border: none;
+    min-width: 530px;
+    min-height: 230px;
+    max-width: 530px;
+    width: 530px;
+    height: 230px;
+    @media (max-width: 979px) and (min-width: 768px) {
+    	width: 100%;
+    	max-width: 100%;
+    	min-width: 100%;
+    }
+    @media (max-width: 767px) {
+    	width: 100%;
+    	max-width: 100%;
+    	min-width: 100%;
+    }
+}
+

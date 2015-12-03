@@ -1,0 +1,345 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  /*background: $color3;
+  color: $color2;*/
+  font-family: 'PT Sans', sans-serif;
+  border-top: 8px solid #e48200;
+}
+@media (max-width: 767px) {
+  body {
+    margin: auto;
+  }
+}
+
+body.custom-background {
+  background-image: url(../images/body.png);
+  background-repeat: repeat;
+  background-position: top center;
+  background-attachment: scroll;
+  /*background-position: center;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;*/
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #1b1b1b;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #e48200;
+}
+
+h1 a {
+  color: #1b1b1b;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input, textarea {
+  /*border: 1px solid $color1;
+  background: $color2;
+  padding: 0.3em 0.4em;
+  box-shadow: inset -1px -1px 6px $color1;
+  border-color: #DDD;*/
+}
+
+.site {
+  overflow: hidden;
+  /*background: rgba($color1, 0.85);*/
+  *zoom: 1;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.site:before, .site:after {
+  content: " ";
+  display: table;
+}
+.site:after {
+  clear: both;
+}
+
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
+
+.breadcrumbs {
+  padding-left: 0;
+  background-color: #f8f7f7;
+  padding: 12px 16px 13px 16px;
+  font-size: 15px;
+}
+.breadcrumbs li {
+  display: inline;
+  line-height: 20px;
+  font-size: 15px;
+  color: #1b1b1b;
+}
+.breadcrumbs .current {
+  color: #e48200;
+  font-weight: normal;
+}
+
+#reply-title {
+  margin: 50px 10px 50px 0;
+  font: bold 24px/24px 'PT Sans',sans-serif;
+  color: #1b1b1b;
+  text-transform: uppercase;
+}
+
+.comment-form-comment label {
+  	/*display: block;
+  	margin: 0 0 10px 0;
+  	padding: 10px 12px;
+  	background-color: #f5f5f5;
+  	width: 288px;box-shadow: none;
+      resize: none;
+      font-family: 'PT Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 300;
+      color: #1b1b1b;*/
+}
+
+#author, #email, #url {
+  border: none;
+  margin-left: 0;
+  padding: 10px 12px;
+  background-color: #f5f5f5;
+  width: 288px;
+}
+
+.comment-notes, .comment-form-author label, .comment-form-email label, .comment-form-url label, .comment-form-comment label {
+  display: none;
+}
+
+.comment-form-author input,
+.comment-form-email input,
+.comment-form-url input {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #1b1b1b;
+}
+
+.logged-in-as {
+  margin-left: 0;
+  padding: 10px 12px;
+  background-color: #f5f5f5;
+  width: 288px;
+  box-shadow: none;
+  resize: none;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #1b1b1b;
+}
+
+#comments {
+  border-top: 1px solid #d1d1d1;
+}
+
+#comment {
+  background: #f5f5f5;
+  padding: 10px 12px;
+  border: none;
+  min-width: 530px;
+  min-height: 230px;
+  max-width: 530px;
+  width: 530px;
+  height: 230px;
+}
+@media (max-width: 979px) and (min-width: 768px) {
+  #comment {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  #comment {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+
+/******************************************************************************\
+	Settings
+\******************************************************************************/
+html {
+  font-size: 16px;
+}
+@media screen and (min-width: 481px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+/******************************************************************************\
+	Font calculation mixins
+\******************************************************************************/
+/******************************************************************************\
+	Standard font styling
+\******************************************************************************/
+body {
+  font-family: "PT Sans", sans-serif;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+em, i {
+  font-style: italic;
+  line-height: inherit;
+}
+
+strong, b {
+  font-weight: bold;
+  line-height: inherit;
+}
+
+/*p,
+ul,
+ol {
+    @include leading-rows(0);
+    @include trailing-rows(1);
+}*/
+blockquote {
+  position: relative;
+  /*display: block;
+  float: left;
+  content: "\"";
+  @include font-size(2.5);
+  margin: 0 15px 15px 0;*/
+}
+
+.testimonials-item-blockquote:before {
+  background: url(images/quotes.png) no-repeat 0% 0%;
+  display: block;
+  width: 34px;
+  height: 27px;
+  overflow: hidden;
+  border: none;
+  position: absolute;
+  top: 14px;
+  left: 18px;
+  content: '';
+}
+.testimonials-item-blockquote:after {
+  background: url(images/testi_corner.gif) no-repeat 0% 0%;
+  display: block;
+  width: 34px;
+  height: 20px;
+  overflow: hidden;
+  border: none;
+  position: absolute;
+  bottom: -20px;
+  top: auto;
+  left: 65px;
+  content: '';
+}
+
+#testimonials-bq:before {
+  background: url(images/quotes1.png) no-repeat 0 0;
+  display: block;
+  width: 38px;
+  height: 41px;
+  overflow: hidden;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+}
+
+/*h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+h5,
+h6 {
+	font-family: $header-font;
+	line-height: 1.2;
+    text-transform: uppercase;
+
+    @include media($large) { word-wrap: normal; }
+}
+
+h1,
+.h1 {
+    @include font-size(2.5);
+    @include leading-rows(1);
+    @include trailing-rows(1);
+
+    @include media($medium) { @include font-size(3); }
+}
+
+h2,
+.h2 {
+    @include font-size(1.8);
+    @include leading-rows(2);
+    @include trailing-rows(1);
+
+    @include media($medium) { @include font-size(2); }
+}
+
+h3,
+.h3 {
+    @include font-size(1.1);
+    @include leading-rows(1.5);
+    @include trailing-rows(0.5);
+
+    @include media($medium) { @include font-size(1.2); }
+}
+
+h4,
+h5,
+h6 {
+	@include font-size(1);
+	@include leading-rows(1.5);
+    @include trailing-rows(0.5);
+}
+
+h2,
+h3 { page-break-after: avoid; }
+
+p,
+h2,
+h3 {
+    orphans: 3;
+    widows: 3;
+}*/
+/*p ~ h1 { @include leading-rows(2); }*/
+html .mceContentBody {
+  font-size: 100%;
+  max-width: 650px;
+}
+
+/*# sourceMappingURL=wp-editor-style.css.map */

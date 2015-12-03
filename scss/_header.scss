@@ -1,0 +1,97 @@
+
+#main-header {
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 47px;
+	/*border-top: 8px solid #1b1b1b;*/
+	@media only screen and (max-width: 767px) {
+           padding-right: 15px;
+           padding-left: 15px;
+        }
+}
+
+#header-logo {
+	padding-left: 0;
+	padding-right: 0;
+	margin-top: 13px;
+	float: left;
+	@media (max-width: 979px) and (min-width: 768px) {
+		width: 336px;
+	}
+	@media only screen and (max-width: 767px) {
+           text-align: center;
+        }
+}
+
+
+.site-header {
+	padding: /*3em*/ 0;
+	position:relative;
+	/*height: auto;
+	border-bottom: 3px solid $color5/*$color2;
+	background-color: $color5;*/
+	
+}
+
+
+.logo {
+	@include span-columns(8);
+	@include shift(2);
+	/*color: $color2;*/
+	color: $color4;
+	position: relative;
+	z-index: 2;
+
+	.blog-name {
+		margin-bottom: 0.2em;
+		text-align: center;
+		text-shadow: 0 0 .5em $color1;
+	}
+
+	.blog-description {
+		margin-bottom: 1.5em;
+		text-align: center;
+		font-style: italic;
+		text-shadow: 0 0 .5em $color1;
+	}
+}
+
+#header-social {
+	padding-right: 0;
+	padding-left: 0;
+	@media (max-width: 979px) and (min-width: 768px) {
+		width: 414px;
+	}
+	@media only screen and (max-width: 767px) {
+           text-align: center;
+        }
+
+ul {
+	height: auto;
+	list-style: none;
+	float: right;
+    margin: 0;
+    padding: 0;
+    @media only screen and (max-width: 767px) {
+            float: none;
+            padding: 20px 0 0 0; 
+        }
+}
+
+li {
+	display: inline;
+	margin: 0 0 0 18px;
+	line-height: 20px;
+}
+
+a {
+	display: inline-block;
+    vertical-align: top;
+    line-height: 20px;
+}
+}
+
+#photo-carousel {
+	padding-right: 0;
+	padding-left: 0;
+}

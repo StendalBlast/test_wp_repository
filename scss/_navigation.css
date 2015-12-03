@@ -1,0 +1,32 @@
+.menu {
+  float: right;
+  z-index: 1000; }
+
+.main-menu {
+  /*padding-top: 20px;*/
+  margin-top: 20px;
+  position: relative;
+  z-index: 999; }
+  .main-menu .menu-item {
+    display: inline;
+    padding: 15px; }
+  .main-menu .menu-item a {
+    text-transform: uppercase;
+    color: #1b1b1b;
+    font-family: 'PT Sans', sans-serif;
+    /*color: scale-lightness($color1, 70%);*/
+    white-space: nowrap; }
+  .main-menu .menu-item a:hover {
+    color: #e48200; }
+
+.sub-menu {
+  display: none;
+  background: #eeeded;
+  padding: 49px 10px 37px 10px;
+  border: 1px solid #d1d1d1;
+  position: absolute;
+  z-index: 1000; }
+  .sub-menu li {
+    display: block; }
+
+/*# sourceMappingURL=_navigation.css.map */

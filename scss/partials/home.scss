@@ -1,0 +1,191 @@
+.t-home{
+	margin-top: 20px;
+    @media only screen and (max-width: 767px) {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+#slider-wrapper {
+	position: relative;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+
+#photo-carousel {
+	margin-bottom: 66px;
+	h2 {
+	font-family: 'PT Sans', sans-serif;
+	font-size:24px;
+    line-height:24px;
+    color: $color4;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-transform: uppercase;
+	}
+}
+
+#home-post1 {
+	position: relative;
+	font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    min-height: 142px;
+    overflow: hidden;
+    margin: 0 auto 69px;
+    padding: 31px 230px 56px 0;
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+    @media only screen and (max-width: 767px) {
+            padding-right: 0px;
+        }
+	.btn-big {
+		position: absolute;
+    	top: 31px;
+    	right: 0;
+        @media only screen and (max-width: 767px) {
+            position: relative;
+            top: auto;
+            right: auto;
+        }
+	}
+	
+	h1 {
+		margin: 29px 0 3px 0;
+    	line-height: 52px;
+    	font-family: 'PT Sans', sans-serif;
+    	font-size: 42px;
+    	font-weight: 700;
+    	text-transform: uppercase;
+    	color: $color4;
+    	letter-spacing: -1px;
+        @media only screen and (min-width: 768px) and (max-width: 978px) {
+        letter-spacing: normal;
+        line-height: 30px;
+        font-size: 20px;
+        }
+        @media only screen and (max-width: 767px) {
+        margin: 0 0 3px 0;
+        letter-spacing: normal;
+        line-height: 30px;
+        font-size: 30px;
+        }
+	}
+	p {
+		line-height: 20px;
+    	font-size: 16px;
+    	color: #b3b3b3;
+        @media only screen and (max-width: 767px) {
+          margin-bottom: 20px;
+        }
+    }
+}
+
+.btn-big a {
+	background-color: $color5;
+    width: 142px;
+    margin: 0;
+    padding: 60px 10px 64px 10px;
+    border: 1px solid $color5;
+	border-radius: 0;
+	box-shadow: none;
+    line-height: 16px;
+    font-size: 10px;
+    font-weight: 700;
+    text-shadow: none;
+    text-transform: uppercase;
+    color: #FFF;
+    @media only screen and (max-width: 767px) {
+            width: 99px;
+            padding: 13px 10px 14px 10px;
+        }
+		&:hover {
+				background-color: $color4;
+                border-color: $color4;
+			}
+		}
+
+#home-serias-posts {
+	padding-right: 0;
+	padding-left: 0;
+	margin-bottom: 96px;
+
+	h2 {
+	font-family: 'PT Sans', sans-serif;
+	font-size:24px;
+    line-height:24px;
+    color: $color4;
+    font-weight: bold;
+    padding-top: 3px;
+    margin-top: 0;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+}
+
+#serias-posts-col1, #serias-posts-col2, #serias-posts-col3 {
+padding-left: 0;
+padding-right: 0;
+/*margin-right: 30px;*/
+
+}
+
+.recent-posts {
+	padding-left: 0;
+	padding-bottom: 15px; 
+	margin-bottom: 0;
+}
+
+.recent-posts-li {
+	margin-bottom: 22px;
+	line-height: 20px;
+}
+
+.text-p {
+	margin: 0 0 38px 0;
+    padding: 0 20px 0 0;
+    line-height: 20px;
+    font-size: 13px;
+    color: $color4;
+}
+
+#btn-sm a {
+	background-color: $color5;
+    margin: 0;
+    padding: 13px 20px 14px 20px;
+    border: 1px solid $color5;
+	border-radius: 0;
+	box-shadow: none;
+    line-height: 16px;
+    font-size: 10px;
+    font-weight: 700;
+    text-shadow: none;
+    text-transform: uppercase;
+    color: #FFF;
+    &:hover {
+        background-color: $color4;
+        border-color: $color4;
+    }
+}
+
+.post-inner {
+     @media only screen and (min-width: 768px) and (max-width: 978px) {
+        padding: 15px 0;
+        }
+    @media only screen and (max-width: 767px) {
+        padding: 15px 0; 
+        }
+h5 {
+	margin: 0 0 1px 0;
+	font: normal 15px/20px 'PT Sans',sans-serif;
+    color: $color5;
+}
+}
+.post-date {
+	line-height: 18px;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: $color5;
+}

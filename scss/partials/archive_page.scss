@@ -1,0 +1,66 @@
+
+#testimonials-container h1 {
+    font: bold 24px/24px 'PT Sans',sans-serif;
+    color: $color4;
+    text-transform: uppercase;
+    margin: 10px 0 12px 0;
+}
+
+
+#archives-latest-section, #archive-month, #archive-subject {
+    padding-left: 0;
+}
+
+#bylast {
+    margin-top: -20px;
+}
+
+#bylast, #bymonth, #bycategories {
+    padding-left: 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    li {
+        position: relative;
+        margin: 0 0 .5em 0;
+        padding: 0;
+        border: none;
+        background: none;
+        list-style-type: none;
+        line-height: 20px;
+        &:before {
+            display: inline-block;
+            margin-right: 5px;
+            width: 14px;
+            height: 14px;
+            content: "\f00c";
+            font-family: 'FontAwesome';
+            line-height: 14px;
+            speak: none;
+        }
+        a {
+            color: $color5;
+            line-height: 20px;
+        &:hover {
+            color: $color4;
+            text-decoration: underline;
+        }
+    }
+}
+}
+
+
+.widget-title {
+    text-transform: uppercase;
+    font: bold 24px/24px 'PT Sans',sans-serif;
+    color: $color4;
+    margin: 10px 0 40px 0;
+
+}
+
+#archive-p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: $color4;
+}

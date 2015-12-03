@@ -1,0 +1,39 @@
+/*!
+	Theme Name: Test_theme
+	Author: Taya
+	Version: 1.0
+	Author URI: http://www.taya.com
+	Theme URI: http://www.taya.com/Kabachok
+	Tags: light
+	Description: new
+	License: GNU General Public License v2 or later
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import url('bootstrap/css/bootstrap.css');
+@import url('bootstrap/css/bootstrap-responsive.css');
+@import url('startbootstrap/css/3-col-portfolio.css');
+
+@import "vendor/normalize";
+@import "vendor/bourbon/bourbon";
+@import "grid-settings";
+@import "base";
+@import "typography";
+@import "components";
+@import "wp-base";
+@import "header";
+@import "navigation";
+@import "content";
+@import "post-formats";
+@import "footer";
+
+@import "partials/home";
+@import "partials/about";
+@import "partials/testimonials";
+@import "partials/blog";
+@import "partials/contacts";
+@import "partials/faqs";
+@import "partials/services";
+@import "partials/programs";
+@import "partials/portfolio-extra";
+@import "partials/archive_page";
